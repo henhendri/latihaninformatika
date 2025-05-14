@@ -5,7 +5,7 @@ st.write(
     "Latihan membuat website melalui Github dan Streamlit dengan menggunakan bahasa Python"
 )
     
-st.image("view/young.png")
+st.image("view/young.png" width=200px)
 
 
 st.header (":mailbox: Get in touch with Me!")
