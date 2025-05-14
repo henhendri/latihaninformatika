@@ -1,14 +1,12 @@
 import streamlit as st
 
-st.title("Latihan membuat Website")
-st.write(
-    "Latihan membuat website melalui Github dan Streamlit dengan menggunakan bahasa Python"
-)
-    
+st.title("Selamat datang di Website Informatika")    
 st.image("view/young.png", width=200)
-
 st.write("\n")
-st.subheader("Latihan Membuat Website sederhana")
+st.subheader("Hendri Setiadi, S.Tr.Kom")
+st.write(
+    "Mari latihan membuat website melalui Github dan Streamlit dengan menggunakan bahasa Python"
+)
 st.write(
     """
     - Menggunakan github
