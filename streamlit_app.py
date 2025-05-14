@@ -5,7 +5,7 @@ st.image("view/young.png", width=200)
 st.write("\n")
 st.subheader("Hendri Setiadi, S.Tr.Kom")
 st.write(
-    "Mari latihan membuat website melalui Github dan Streamlit dengan menggunakan bahasa Python"
+    "Mari latihan membuat Website melalui Github dan Streamlit dengan menggunakan bahasa Python"
 )
 st.write(
     """
