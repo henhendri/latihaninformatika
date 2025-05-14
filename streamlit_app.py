@@ -7,6 +7,17 @@ st.write(
     
 st.image("view/young.png", width=200)
 
+st.write("\n")
+st.subheader("Latihan Membuat Website sederhana")
+st.write(
+    """
+    - Menggunakan github
+    - Framework Streamlit
+    """
+)
+
+
+
 
 
 
