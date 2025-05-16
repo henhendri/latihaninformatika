@@ -1,13 +1,17 @@
 import streamlit as st
 
-st.title("Selamat datang di Website Informatika")
+st.title(
+        """
+        Selamat datang di 
+        Website Informatika
+        """)
 st.subheader("ngodingseru bersama Bapak Hendri Setiadi, S.Tr.Kom, Gr.")
 st.image("view/young.png", width=200)
-st.image("python.jpg", width=200)
+
 st.write("\n")
 st.subheader("Hendri Setiadi, S.Tr.Kom")
 st.write(
-    "Mari latihan membuat Website melalui Github dan Streamlit dengan menggunakan bahasa Python"
+    "Mari latihan membuat Website sederhana melalui Github dan Framework Streamlit"
 )
 st.write(
     """
@@ -16,6 +20,7 @@ st.write(
     """
 )
 
+st.image("python.jpg", width=200)
 
 
 
