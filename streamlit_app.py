@@ -1,11 +1,10 @@
 import streamlit as st
 
 st.title("Selamat datang di Website Informatika")
-st.subheader("ngodingseru bersama Bapak Hendri Setiadi, S.Tr.Kom, Gr.")
 st.image("view/young.png", width=200)
 
 st.write("\n")
-st.subheader("Hendri Setiadi, S.Tr.Kom")
+st.subheader("ngodingseru bersama Bapak Hendri Setiadi, S.Tr.Kom, Gr.")
 st.write(
     "Mari latihan membuat Website sederhana melalui Github dan Framework Streamlit"
 )
