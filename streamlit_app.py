@@ -2,7 +2,6 @@ import streamlit as st
 
 st.title("Selamat datang di Website Informatika")
 st.image("view/young.png", width=200)
-
 st.write("\n")
 st.subheader("ngodingseru bersama Bapak Hendri Setiadi, S.Tr.Kom, Gr.")
 st.write(
