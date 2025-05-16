@@ -18,6 +18,7 @@ st.write(
 
 st.image("python.jpg", width=200)
 
+#########
 
 st.title("Toko Sederhana")
 
