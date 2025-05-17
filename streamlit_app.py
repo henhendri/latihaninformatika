@@ -71,60 +71,7 @@ st.write("Feel free to contact us with any questions or inquiries.")
 
 contact_form_html = """
     <form action="https://formsubmit.co/thishendri@gmail.com" method="POST">
-         <input type="text" name="name" placeholder="Your name" required>
-         <input type="email" name="email" placeholder="Your email" required>
-         <textarea name="message" placeholder="Your message here"></textarea>
-         <button type="submit">Send</button>
-    </form>
-"""
-streamlit_style = """
-<style>
-  form {
-    max-width: 500px;
-    margin: 20px auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-  }
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box; /* Ensure padding doesn't affect width */
-  }
-  textarea {
-    min-height: 150px;
-    resize: vertical; /* Allow vertical resizing */
-  }
-  button[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  button[type="submit"]:hover {
-    background-color: #45a049;
-  }
-</style>
-"""
-
-st.markdown(contact_form_html, unsafe_allow_html=True)
-
-# You can add other contact information below the form
-st.write("Email: contact@example.com")
-st.write("Phone: 123-456-7890")
-
-
-contact_formhtml = """
-    <form action="https://formsubmit.co/your@email.com" method="POST">
+        <form action="https://formsubmit.co/your@email.com" method="POST">
          <input type="text" name="name" placeholder="Your name" required style="padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc;">
          <input type="email" name="email" placeholder="Your email" required style="padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc;">
          <textarea name="message" placeholder="Your message here" style="padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc; height: 150px;"></textarea>
@@ -132,7 +79,7 @@ contact_formhtml = """
     </form>
 """
 
-st.markdown(contact_formhtml, unsafe_allow_html=True)
+st.markdown(contact_form_html, unsafe_allow_html=True)
 
 # You can add other contact information below the form
 st.write("Email: contact@example.com")
