@@ -9,7 +9,7 @@ st.write(
 )
 st.write(
     """
-    - Menggunakan github
+    - Menggunakan github.com
     - Framework Streamlit
     """
 )
