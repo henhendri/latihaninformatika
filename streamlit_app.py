@@ -10,7 +10,7 @@ st.write(
 st.write(
     """
     - Menggunakan github.com
-    - Framework Streamlit
+    - Framework Streamlit.io
     """
 )
 
