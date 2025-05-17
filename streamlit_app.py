@@ -71,7 +71,6 @@ st.write("Feel free to contact us with any questions or inquiries.")
 
 contact_form_html = """
     <form action="https://formsubmit.co/thishendri@gmail.com" method="POST">
-        <form action="https://formsubmit.co/your@email.com" method="POST">
          <input type="text" name="name" placeholder="Your name" required style="padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc;">
          <input type="email" name="email" placeholder="Your email" required style="padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc;">
          <textarea name="message" placeholder="Your message here" style="padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc; height: 150px;"></textarea>
