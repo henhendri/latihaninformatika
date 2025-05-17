@@ -70,7 +70,7 @@ st.title(f"Mail Message", anchor=False)
 st.write("Feel free to contact us with any questions or inquiries.")
 
 contact_form_html = """
-    <form action="https://formsubmit.co/your@email.com" method="POST">
+    <form action="https://formsubmit.co/thishendri@gmail.com" method="POST">
          <input type="text" name="name" placeholder="Your name" required>
          <input type="email" name="email" placeholder="Your email" required>
          <textarea name="message" placeholder="Your message here"></textarea>
