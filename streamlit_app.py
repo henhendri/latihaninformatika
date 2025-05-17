@@ -121,3 +121,19 @@ st.markdown(contact_form_html, unsafe_allow_html=True)
 # You can add other contact information below the form
 st.write("Email: contact@example.com")
 st.write("Phone: 123-456-7890")
+
+
+contact_formhtml = """
+    <form action="https://formsubmit.co/your@email.com" method="POST">
+         <input type="text" name="name" placeholder="Your name" required style="padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc;">
+         <input type="email" name="email" placeholder="Your email" required style="padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc;">
+         <textarea name="message" placeholder="Your message here" style="padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc; height: 150px;"></textarea>
+         <button type="submit" style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">Send</button>
+    </form>
+"""
+
+st.markdown(contact_formhtml, unsafe_allow_html=True)
+
+# You can add other contact information below the form
+st.write("Email: contact@example.com")
+st.write("Phone: 123-456-7890")
