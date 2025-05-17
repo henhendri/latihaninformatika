@@ -18,13 +18,13 @@ st.image("python.jpg", width=200)
 
 #########
 
-st.title("Toko Sederhana")
+st.title("Aplikasi Sederhana")
 
 # Menggunakan layout kolom
 col1, col2 = st.columns(2)
 
 with col1:
-    st.header("Cek Genap/Ganjil")
+    st.header("Aplikasi Mengecek Nilai Genap/Ganjil")
     angka = st.number_input("Tulis sebuah Angka:", value=0, step=1)
 
     if (angka % 2) == 0:
@@ -33,7 +33,7 @@ with col1:
         st.write(f"{angka} adalah Bilangan Ganjil")
 
 with col2:
-    st.header("Hitung Total Belanja")
+    st.header("Aplikasi menghitung Total Belanja")
 
     def hitung_total(harga, jumlah):
         return harga * jumlah
