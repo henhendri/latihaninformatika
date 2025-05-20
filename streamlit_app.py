@@ -68,7 +68,6 @@ contact_form_html = """
     <form action="https://formsubmit.co/thishendri@gmail.com" method="POST">
          <input type="text" name="name" placeholder="Your name" required style="padding: 20px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc;">
          <input type="email" name="email" placeholder="Your email" required style="padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc;">
-         \n
          <textarea name="message" placeholder="Your message here" style="padding: 20px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc; height: 150px;"></textarea>
          <button type="submit" style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">Send</button>
     </form>
