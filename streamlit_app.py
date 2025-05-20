@@ -31,9 +31,6 @@ with col1:
         st.write(f"{angka} adalah Bilangan Genap")
     else:
         st.write(f"{angka} adalah Bilangan Ganjil")
-        
-if st.button("Hitung Luas", type="primary"):
-  loading = st.progress(0)
 
 with col2:
     st.header("Aplikasi menghitung Total Belanja")
