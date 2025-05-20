@@ -57,12 +57,7 @@ with col2:
         st.write("Uang yang anda bayarkan kurang ")
 
 
-
-
-
-
-
-
+###########################
 
 st.header (":mailbox: Get in touch with Me!")
 st.title(f"Mail Message", anchor=False)
@@ -73,7 +68,7 @@ contact_form_html = """
     <form action="https://formsubmit.co/thishendri@gmail.com" method="POST">
          <input type="text" name="name" placeholder="Your name" required style="padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc;">
          <input type="email" name="email" placeholder="Your email" required style="padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc;">
-         <textarea name="message" placeholder="Your message here" style="padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc; height: 150px;"></textarea>
+         <textarea name="message" placeholder="Your message here" style="padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc; height: 150px; \n">\n</textarea>
          <button type="submit" style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">Send</button>
     </form>
 """
