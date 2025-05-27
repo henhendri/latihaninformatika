@@ -70,7 +70,7 @@ contact_form_html = """
          <input type="email" name="email" placeholder="Your email" required style="padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc;">
          <br>
          <textarea name="message" placeholder="Your message here" style="padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc; height: 150px;"></textarea>
-         <br>
+         </br>
          <button type="submit" style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">Send</button>
     </form>
 """
